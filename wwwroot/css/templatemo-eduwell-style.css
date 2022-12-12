@@ -125,13 +125,13 @@ body {
 }
 
 ::selection {
-  background: #dc8cdb;
-  color: #fff;
+    background: rgba(61,133,198, 1);
+    color: #fff;
 }
 
 ::-moz-selection {
-  background: #dc8cdb;
-  color: #fff;
+    background: rgba(61,133,198, 1);
+    color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -154,7 +154,7 @@ body {
     font-size: 13px;
     color: #fff;
     background: rgba(61,133,198);
-    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
     padding: 12px 30px;
     display: inline-block;
     border-radius: 5px;
@@ -165,20 +165,20 @@ body {
 
     .main-button-gradient a:hover {
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
         opacity: 0.9;
     }
 
 .white-button a {
-  font-size: 13px;
-  color: #dc8cdb;
-  background-color: #fff;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 5px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all .3s;
+    font-size: 13px;
+    color: rgba(61,133,198, 1);
+    background-color: #fff;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s;
 }
 
 .white-button a:hover {
@@ -186,11 +186,11 @@ body {
 }
 
 .text-button a {
-  font-size: 14px;
-  font-weight: 500;
-  color: #dc8cdb;
-  text-decoration: underline !important;
-  transition: all .3s;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(61,133,198, 1);
+    text-decoration: underline !important;
+    transition: all .3s;
 }
 
 .text-button a:hover {
@@ -230,10 +230,10 @@ section {
   color: #111;
 }
 
-.section-heading h4 em {
-  font-style: normal;
-  color: #dc8cdb;
-}
+    .section-heading h4 em {
+        font-style: normal;
+        color: rgba(61,133,198, 1);
+    }
 
 .section-heading p {
   margin-top: 30px;
@@ -247,7 +247,7 @@ header
 */
 .background-header {
     background: rgba(61,133,198) !important;
-    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%) !important;
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%) !important;
     height: 80px !important;
     position: fixed !important;
     top: 0 !important;
@@ -403,11 +403,11 @@ header
   border-bottom: 1px solid #eee;
 }
 
-.header-area .main-nav .nav li.has-sub ul li a:hover {
-  background: #fff;
-  color: #dc8cdb!important;
-  padding-left: 25px;
-}
+    .header-area .main-nav .nav li.has-sub ul li a:hover {
+        background: #fff;
+        color: rgba(61,133,198, 1) !important;
+        padding-left: 25px;
+    }
 
 .header-area .main-nav .nav li.has-sub ul li a:hover:before {
   width: 3px;
@@ -545,7 +545,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #dc8cdb;
+    color: rgba(61,133,198, 1);
 }
 
 @media (max-width: 1200px) {
@@ -562,11 +562,11 @@ header
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
-  .header-area.header-sticky .nav li a:hover,
-  .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb!important;
-    opacity: 1;
-  }
+    .header-area.header-sticky .nav li a:hover,
+    .header-area.header-sticky .nav li a.active {
+        color: rgba(61,133,198, 1) !important;
+        opacity: 1;
+    }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
@@ -620,10 +620,10 @@ header
     background: #f7f7f7 !important;
     color: #191a20 !important;
   }
-  .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-    color: #dc8cdb!important;
-  }
+    .header-area .main-nav .nav li a:hover {
+        background: #eee !important;
+        color: rgba(61,133,198, 1) !important;
+    }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
     visibility: inherit;
@@ -716,7 +716,7 @@ section.main-banner {
   font-size: 17px;
   font-weight: 500;
   text-transform: capitalize;
-  color: #777777;;
+  color: #777777;
 }
 
 .main-banner .header-text h2 {
@@ -730,10 +730,10 @@ section.main-banner {
   margin-bottom: 40px;
 }
 
-.main-banner .header-text h2 em {
-  font-style: normal;
-  color: #dc8cdb;
-}
+    .main-banner .header-text h2 em {
+        font-style: normal;
+        color: rgba(61,133,198, 1);
+    }
 
 .main-banner .main-button-gradient {
   position: relative;
@@ -787,9 +787,9 @@ services
   margin: 0px 4px;
 }
 
-.services .owl-dots .active {
-  background-color: #dc8cdb;
-}
+    .services .owl-dots .active {
+        background-color: rgba(61,133,198, 1);
+    }
 
 
 /*
@@ -847,11 +847,11 @@ section.our-courses .naccs {
         border: 3px solid rgba(61,133,198, 0.5);
     }
 
-section.our-courses .naccs .menu div.active {
-   color: #dc8cdb;
-   border: 3px solid rgba(61,133,198, 1);
-   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-}
+        section.our-courses .naccs .menu div.active {
+            color: rgba(61,133,198, 1);
+            border: 3px solid rgba(61,133,198, 1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+        }
 
 section.our-courses ul.nacc {
   margin-left: 100px !important;
@@ -891,7 +891,7 @@ section.our-courses ul.nacc li .left-image img {
     section.our-courses ul.nacc li .left-image .price h6 {
         position: absolute;
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
         color: #fff;
         top: 20px;
         left: 20px;
@@ -1054,11 +1054,11 @@ section.testimonials:after {
   position: relative;
 }
 
-.testimonials .item span {
-  font-size: 13px;
-  font-weight: 700;
-  color: #dc8cdb;
-}
+    .testimonials .item span {
+        font-size: 13px;
+        font-weight: 700;
+        color: rgba(61,133,198, 1);
+    }
 
 .testimonials .item img {
   max-width: 44px;
@@ -1081,9 +1081,9 @@ section.testimonials:after {
   margin: 0px 4px;
 }
 
-.testimonials .owl-dots .active {
-  background-color: #dc8cdb;
-}
+    .testimonials .owl-dots .active {
+        background-color: rgba(61,133,198, 1);
+    }
 
 
 
@@ -1133,7 +1133,7 @@ section.contact-us .contact-info {
         line-height: 50px;
         border-radius: 50%;
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
         color: #fff;
     }
 
@@ -1143,11 +1143,11 @@ section.contact-us .contact-info h4 {
   text-transform: uppercase;
 }
 
-section.contact-us .contact-info span {
-  font-size: 15px;
-  color: #dc8cdb;
-  font-weight: 700;
-}
+    section.contact-us .contact-info span {
+        font-size: 15px;
+        color: rgba(61,133,198, 1);
+        font-weight: 700;
+    }
 
 section.contact-us .section-heading {
   text-align: left;
@@ -1201,7 +1201,7 @@ section.contact-us #contact textarea {
         font-size: 13px;
         color: #fff;
         background: rgba(61,133,198, 1);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
         padding: 12px 30px;
         display: inline-block;
         border-radius: 5px;
@@ -1227,22 +1227,22 @@ section.contact-us ul.social-icons {
   margin-top: 70px;
 }
 
-section.contact-us ul.social-icons li a {
-  width: 44px;
-  height: 44px;
-  display: inline-block;
-  text-align: center;
-  line-height: 44px;
-  background-color: #fff;
-  color: #dc8cdb;
-  border-radius: 50%;
-  transition: all .5s;
-}
+    section.contact-us ul.social-icons li a {
+        width: 44px;
+        height: 44px;
+        display: inline-block;
+        text-align: center;
+        line-height: 44px;
+        background-color: #fff;
+        color: rgba(61,133,198, 1);
+        border-radius: 50%;
+        transition: all .5s;
+    }
 
-section.contact-us ul.social-icons li a:hover {
-  background-color: #dc8cdb;
-  color: #fff;
-}
+        section.contact-us ul.social-icons li a:hover {
+            background-color: rgba(61,133,198, 1);
+            color: #fff;
+        }
 
 p.copyright {
   text-align: center;
@@ -1398,17 +1398,17 @@ section.our-team .naccs .menu div h4 {
   margin-bottom: 5px;
 }
 
-section.our-team .naccs .menu div span {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #dc8cdb;
-  font-weight: 700;
-  display: block;
-}
+    section.our-team .naccs .menu div span {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: rgba(61,133,198, 1);
+        font-weight: 700;
+        display: block;
+    }
 
-section.our-team .naccs .menu div.active h4 {
-  color: #dc8cdb;
-}
+    section.our-team .naccs .menu div.active h4 {
+        color: rgba(61,133,198, 1);
+    }
 
 section.our-team ul.nacc {
   margin-top: 40px !important;
@@ -1472,9 +1472,9 @@ section.our-team ul.nacc li .left-content span a {
   transition: all .3s;
 }
 
-section.our-team ul.nacc li .left-content span a:hover {
-  color: #dc8cdb;
-}
+    section.our-team ul.nacc li .left-content span a:hover {
+        color: rgba(61,133,198, 1);
+    }
 
 section.our-team ul.nacc li .left-content .last-span a {
   margin-right: 0px;
@@ -1558,7 +1558,7 @@ section.our-office #video .thumb .play-button {
         color: #fff;
         font-size: 22px;
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
     }
 
 section.our-office #video img {
@@ -1687,24 +1687,24 @@ section.more-info .count-area-content {
   margin-top: 20px;
 }
 
-section.more-info .count-area-content .count-digit {
-  background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-  border-radius: 15px;
-  text-align: center;
-  display: inline-block;
-  margin-left: 50%;
-  transform: translateX(-40px);
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  font-size: 28px;
-  color: #dc8cdb;
-  font-weight: 900;
-  margin-bottom: -40px;
-  position: relative;
-  z-index: 2;
-}
+    section.more-info .count-area-content .count-digit {
+        background-color: #fff;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+        text-align: center;
+        display: inline-block;
+        margin-left: 50%;
+        transform: translateX(-40px);
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 28px;
+        color: rgba(61,133,198, 1);
+        font-weight: 900;
+        margin-bottom: -40px;
+        position: relative;
+        z-index: 2;
+    }
 
 section.more-info .count-area-content .count-title {
   background-color: #fff;
@@ -1755,7 +1755,7 @@ body {
   }
     .header-area {
         background: rgba(61,133,198) !important;
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%) !important;
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%) !important;
     }
   .services .owl-nav .owl-next{
     right: -70px;
@@ -1896,9 +1896,9 @@ body {
     width: 14%;
     margin: 0px 5px;
   }
-  section.our-team .naccs .menu div.active img {
-    border: 3px solid #dc8cdb;
-  }
+    section.our-team .naccs .menu div.active img {
+        border: 3px solid rgba(61,133,198, 1);
+    }
   section.our-team .naccs .menu div h4,
   section.our-team .naccs .menu div span {
     display: none;
