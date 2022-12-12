@@ -1,10 +1,3 @@
-/*
-
-TemplateMo 573 EduWell
-
-https://templatemo.com/tm-573-eduwell
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -154,7 +147,7 @@ body {
     font-size: 13px;
     color: #fff;
     background: rgba(61,133,198);
-    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
     padding: 12px 30px;
     display: inline-block;
     border-radius: 5px;
@@ -165,7 +158,7 @@ body {
 
     .main-button-gradient a:hover {
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
         opacity: 0.9;
     }
 
@@ -247,7 +240,7 @@ header
 */
 .background-header {
     background: rgba(61,133,198) !important;
-    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%) !important;
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%) !important;
     height: 80px !important;
     position: fixed !important;
     top: 0 !important;
@@ -891,7 +884,7 @@ section.our-courses ul.nacc li .left-image img {
     section.our-courses ul.nacc li .left-image .price h6 {
         position: absolute;
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
         color: #fff;
         top: 20px;
         left: 20px;
@@ -1133,7 +1126,7 @@ section.contact-us .contact-info {
         line-height: 50px;
         border-radius: 50%;
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
         color: #fff;
     }
 
@@ -1201,7 +1194,7 @@ section.contact-us #contact textarea {
         font-size: 13px;
         color: #fff;
         background: rgba(61,133,198, 1);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
         padding: 12px 30px;
         display: inline-block;
         border-radius: 5px;
@@ -1558,7 +1551,7 @@ section.our-office #video .thumb .play-button {
         color: #fff;
         font-size: 22px;
         background: rgba(61,133,198);
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
     }
 
 section.our-office #video img {
@@ -1755,7 +1748,7 @@ body {
   }
     .header-area {
         background: rgba(61,133,198) !important;
-        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(61,133,198, 0.75) 100%) !important;
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%) !important;
     }
   .services .owl-nav .owl-next{
     right: -70px;
