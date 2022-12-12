@@ -151,23 +151,23 @@ body {
 }
 
 .main-button-gradient a {
-  font-size: 13px;
-  color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 5px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all .3s;
+    font-size: 13px;
+    color: #fff;
+    background: rgba(61,133,198);
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s;
 }
 
-.main-button-gradient a:hover {
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
-  opacity: 0.9;
-}
+    .main-button-gradient a:hover {
+        background: rgba(61,133,198);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        opacity: 0.9;
+    }
 
 .white-button a {
   font-size: 13px;
@@ -246,14 +246,14 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
-  height: 80px!important;
-  position: fixed!important;
-  top: 0!important;
-  left: 0;
-  right: 0;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+    background: rgba(61,133,198) !important;
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%) !important;
+    height: 80px !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15) !important;
 }
 
 .header-area {
@@ -832,25 +832,25 @@ section.our-courses .naccs {
   position: relative;
 }
 
-section.our-courses .naccs .menu div {
-  padding: 15px 30px;
-  text-align: center;
-  border-radius: 5px !important;
-  margin-bottom: 40px;
-  font-size: 20px;
-  color: #111;
-  background-color: #fff;
-  cursor: pointer;
-  vertical-align: middle;
-  font-weight: 900;
-  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  border: 3px solid rgba(219,138,222,0.5);
-}
+    section.our-courses .naccs .menu div {
+        padding: 15px 30px;
+        text-align: center;
+        border-radius: 5px !important;
+        margin-bottom: 40px;
+        font-size: 20px;
+        color: #111;
+        background-color: #fff;
+        cursor: pointer;
+        vertical-align: middle;
+        font-weight: 900;
+        transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+        border: 3px solid rgba(61,133,198, 0.5);
+    }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
-  border: 3px solid rgba(219,138,222,1);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+   color: #dc8cdb;
+   border: 3px solid rgba(61,133,198, 1);
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
 section.our-courses ul.nacc {
@@ -888,22 +888,22 @@ section.our-courses ul.nacc li .left-image img {
   border-bottom-left-radius: 15px;
 }
 
-section.our-courses ul.nacc li .left-image .price h6 {
-  position: absolute;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
-  color: #fff;
-  top: 20px;
-  left: 20px;
-  font-size: 20px;
-  font-weight: 700;
-  width: 50px;
-  height: 50px;
-  border-radius: 3px;
-  display: inline-block;
-  text-align: center;
-  line-height: 50px;
-}
+    section.our-courses ul.nacc li .left-image .price h6 {
+        position: absolute;
+        background: rgba(61,133,198);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        color: #fff;
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        width: 50px;
+        height: 50px;
+        border-radius: 3px;
+        display: inline-block;
+        text-align: center;
+        line-height: 50px;
+    }
 
 section.our-courses ul.nacc li .right-content {
   padding: 40px 0px;
@@ -1123,19 +1123,19 @@ section.contact-us .contact-info {
   padding: 20px;
 }
 
-section.contact-us .contact-info .icon i {
-  float: left;
-  margin-right: 15px;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  text-align: center;
-  line-height: 50px;
-  border-radius: 50%;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
-  color: #fff;
-}
+    section.contact-us .contact-info .icon i {
+        float: left;
+        margin-right: 15px;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        background: rgba(61,133,198);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        color: #fff;
+    }
 
 section.contact-us .contact-info h4 {
   font-size: 18px;
@@ -1196,22 +1196,22 @@ section.contact-us #contact textarea {
   margin-bottom: 30px;
 }
 
-section.contact-us #contact button {
-  float: right;
-  font-size: 13px;
-  color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 5px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all .3s;
-  transition: all .3s;
-  border: none;
-  outline: none;
-}
+    section.contact-us #contact button {
+        float: right;
+        font-size: 13px;
+        color: #fff;
+        background: rgba(61,133,198, 1);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+        padding: 12px 30px;
+        display: inline-block;
+        border-radius: 5px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all .3s;
+        transition: all .3s;
+        border: none;
+        outline: none;
+    }
 
 section.contact-us #contact button:hover {
   opacity: 0.9;
@@ -1547,19 +1547,19 @@ section.our-office #video .thumb .play-button {
   left: 50%;
 }
 
-section.our-office #video .thumb .play-button a {
-  width: 80px;
-  height: 80px;
-  display: inline-block;
-  text-align: center;
-  line-height: 80px;
-  border-radius: 50%;
-  transform: translate(-40px, -40px);
-  color: #fff;
-  font-size: 22px;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
-}
+    section.our-office #video .thumb .play-button a {
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+        transform: translate(-40px, -40px);
+        color: #fff;
+        font-size: 22px;
+        background: rgba(61,133,198);
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%);
+    }
 
 section.our-office #video img {
   border-radius: 20px;
@@ -1753,10 +1753,10 @@ body {
   .main-banner .header-text h2 {
     font-size: 62px;
   }
-  .header-area {
-    background: rgb(219,138,222) !important;
-    background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
-  }
+    .header-area {
+        background: rgba(61,133,198) !important;
+        background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(246,191,159,1) 100%) !important;
+    }
   .services .owl-nav .owl-next{
     right: -70px;
   }
