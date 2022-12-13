@@ -2,7 +2,7 @@
 
 namespace Spoura.Controllers
 {
-    public class AboutController : Controller
+    public class CartController : Controller
     {
         public IActionResult Index()
         {
