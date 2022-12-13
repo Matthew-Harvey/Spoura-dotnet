@@ -957,12 +957,12 @@ cta
 */
 
 section.simple-cta {
-  background-image: url(../images/cta-bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 100%;
-  padding: 180px 0px 180px 0px;
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    padding: 180px 0px 180px 0px;
 }
 
 section.simple-cta .left-image {
@@ -1087,12 +1087,12 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/footer-bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0px;
-  position: relative;
+    background: linear-gradient(-145deg, rgba(61,133,198, 1) 0%, rgba(3, 138, 255, 1) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    position: relative;
 }
 
 section.contact-us:after {
